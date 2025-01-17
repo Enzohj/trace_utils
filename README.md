@@ -1,3 +1,8 @@
+# kml_interpolate.py
+
+Python script to interpolate flight kml files downloaded from [FlightAware] (https://www.flightaware.com) using pchip_interpolate from scipy.
+
+
 # gpx_interpolate.py
 
 Python script to interpolate GPX files using piecewise cubic Hermite splines.
@@ -48,10 +53,6 @@ where:
 ### Example
 :black_circle: = input GPX data, :red_circle: = interpolated GPX data  
 ![plot.png](plot.png)
-
-## Test
-
-Run `./test.sh`
 
 ## Requirements
 
