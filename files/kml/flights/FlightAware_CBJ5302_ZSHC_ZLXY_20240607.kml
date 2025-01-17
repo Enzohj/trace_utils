@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+    <name>FlightAware ✈ CBJ5302 2024年 06月 07日 (HGH / ZSHC-XIY / ZLXY)</name>
+    <Placemark>
+        <name>ZSHC Airport</name>
+        <description><![CDATA[Hangzhou Xiaoshan Int'l <br> 浙江 杭州 CN<br><br><a href='http://www.flightaware.com/live/airport/ZSHC'>ZSHC airport activity (live)</a><br><a href='http://www.flightaware.com/resources/airport/ZSHC'>ZSHC airport information</a>]]></description>
+        <Point>
+            <coordinates>120.431667,30.228332999999999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>ZLXY Airport</name>
+        <description><![CDATA[Xi'an Xianyang Int'l <br> 陕西 西安 CN<br><br><a href='http://www.flightaware.com/live/airport/ZLXY'>ZLXY airport activity (live)</a><br><a href='http://www.flightaware.com/resources/airport/ZLXY'>ZLXY airport information</a>]]></description>
+        <Point>
+            <coordinates>108.751592,34.447119000000001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>CBJ5302</name>
+        <description>ZSHC - ZLXY</description>
+        <gx:Track>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <when>2024-06-07T11:37:58Z</when>
+            <when>2024-06-07T11:38:30Z</when>
+            <when>2024-06-07T11:39:00Z</when>
+            <when>2024-06-07T11:39:30Z</when>
+            <when>2024-06-07T11:40:00Z</when>
+            <when>2024-06-07T11:41:00Z</when>
+            <when>2024-06-07T13:02:20Z</when>
+            <when>2024-06-07T13:03:22Z</when>
+            <gx:coord>118.78187 31.80409 7803</gx:coord>
+            <gx:coord>118.71101 31.81178 7803</gx:coord>
+            <gx:coord>118.64767 31.81860 7795</gx:coord>
+            <gx:coord>118.58505 31.82533 7788</gx:coord>
+            <gx:coord>118.52140 31.83214 7788</gx:coord>
+            <gx:coord>118.39635 31.84545 7803</gx:coord>
+            <gx:coord>109.04099 34.20195 2438</gx:coord>
+            <gx:coord>109.00803 34.27730 2134</gx:coord>
+        </gx:Track>
+    </Placemark>
+    <ScreenOverlay>
+        <name>FlightAware</name>
+        <Icon>
+            <href>https://www.flightaware.com/images/logo_ge.png</href>
+        </Icon>
+        <overlayXY x="1" y="-1" xunits="fraction" yunits="fraction"/>
+        <screenXY x="1" y="0" xunits="fraction" yunits="fraction"/>
+        <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+</Document>
+
+</kml>
