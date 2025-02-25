@@ -1,7 +1,10 @@
 # kml_interpolate.py
 
 Python script to interpolate flight kml files downloaded from [FlightAware] (https://www.flightaware.com) using pchip_interpolate from scipy.
-
+```
+usage: 
+python kml_interpolate.py FlightAware.kml
+```
 
 # gpx_interpolate.py
 
