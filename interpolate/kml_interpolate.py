@@ -181,7 +181,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='interpolate kml files using piecewise cubic Hermite splines')
 
-    parser.add_argument('g', type=str, default='FlightAware_CSN3281_ZBAD_ZSHC_20250105.kml', help='GPX file')
+    parser.add_argument('g', type=str, default='/Users/bytedance/Code/my/trace_utils/files/kml/flights/FlightAware_CBJ5302_ZSHC_ZLXY_20240607_interpolated.kml', help='GPX file')
     parser.add_argument('-r', '--res', type=float, default=1900, help='interpolation resolution in meters (default: 1)')
     parser.add_argument('-n', '--num', type=int, default=None, help='force point count in output (default: disabled)')
 
