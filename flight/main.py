@@ -18,11 +18,11 @@ def main():
     kml_path = args.f
     kml_data, airport_points = load_kml(kml_path)
     kml_data_inter = interpolate(kml_data, args.res, args.num)
-    save_path = '{}_interpolated.kml'.format(kml_path.split('/')[-1].split('.')[0])
+    save_path = 'output/{}_interpolated.kml'.format(kml_path.split('/')[-1].split('.')[0])
     write_kml(kml_data_inter, airport_points, save_path)
     if args.visualize:
         airports, path_coords = parse_kml_coordinates(save_path)
-        vis_path = '{}_visualization.html'.format(kml_path.split('/')[-1].split('.')[0])
+        vis_path = 'output/{}_visualization.html'.format(kml_path.split('/')[-1].split('.')[0])
         flight_map = create_flight_map(airports, path_coords, vis_path)
 
 
