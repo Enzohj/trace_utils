@@ -172,3 +172,5 @@ cython_debug/
 
 # Mac OS
 .DS_Store
+*.kml
+*.html
